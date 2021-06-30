@@ -3,12 +3,13 @@
     align-items: center;
     justify-content: space-between;
     z-index: 100;
-    border-bottom: 1px solid #f9f9f9;
+    border-bottom: 2px solid beige;
 }
 
 .header__logo {
     object-fit: contain;
     height: 40px;
+    border-radius: 20px;
 }
 
 .header__icon {

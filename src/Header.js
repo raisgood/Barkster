@@ -9,7 +9,6 @@ import { Link, useHistory } from "react-router-dom";
 function Header({ backButton }) {
     const history = useHistory();
     return (
-        // BEM
         <div className="header">
             {backButton ? (
             <IconButton onClick={() => history.replace(backButton)}>

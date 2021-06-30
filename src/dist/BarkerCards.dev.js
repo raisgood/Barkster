@@ -1,10 +1,9 @@
 //import SwipeableDrawer from "@material-ui/core";
-import React, { useState, useEffect } from "react";
+
+/*import React, { useState, useEffect } from "react";
 import TinderCard from "react-tinder-card";
 import "./BarkerCards.css";
 import axios from './axios';
-
-import SwipeButtons from "./SwipeButtons";
 
 function BarkerCards() {
 const [people, setPeople] = useState([]); 
@@ -22,29 +21,8 @@ useEffect(() => {
   
 }, [])
 
-const redHeartPressed = () => {
-    if (people && people.length > 0) {
-        console.log('1');
-        swiped('left', people[people.length - 1].name ); 
-    }
-}
-
-const greenHeartPressed = () => {
-    if (people && people.length > 0) {
-        console.log('2');
-        swiped('right', people[people.length - 1].name ); 
-    }
-}
-
 const swiped = (direction, nameToDelete) => {
     console.log("removing: " + nameToDelete);
-
-    let clonedPeople = [...people];
-    let swipedDog = clonedPeople.pop();  // remove the last item
-
-    console.log('Handle swiped dog', swipedDog);
-    setPeople(clonedPeople);
-
 };
 
 const outOfFrame = (name) => {
@@ -69,11 +47,9 @@ const outOfFrame = (name) => {
                  </TinderCard>
             ))}
             </div>
-           
-            <SwipeButtons redHeartPressed={redHeartPressed} greenHeartPressed = {greenHeartPressed}  />
         </div>
-        
     );
 }
 
-export default BarkerCards
+export default BarkerCards*/
+"use strict";

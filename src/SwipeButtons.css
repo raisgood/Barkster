@@ -2,7 +2,7 @@
     position: fixed;
     bottom: 2vh;
     display: flex;
-    background-color: aliceblue;
+    background-color: #f3dcf1e0;
     width: 100%;
     justify-content: space-evenly;
 }
@@ -19,17 +19,17 @@
 
 .swipeButtons__left {
     padding: 3vw !important;
-    color: #ec5e6f !important;
+    color: #6e449e !important;
 }
 
 .swipeButtons__star {
     padding: 3vw !important;
-    color: #62b4f9 !important;
+    color: #4a5661 !important;
 }
 
 .swipeButtons__right {
     padding: 3vw !important;
-    color: #76e2b3 !important;
+    color: #35bb8e !important;
 }
 
 .swipeButtons__lightning {
