@@ -1,4 +1,3 @@
-//import SwipeableDrawer from "@material-ui/core";
 import React, { useState, useEffect } from "react";
 import TinderCard from "react-tinder-card";
 import "./BarkerCards.css";
