@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/barkster/static/css/main.c34dbdf1.chunk.css",
+    "main.js": "/barkster/static/js/main.92436232.chunk.js",
+    "main.js.map": "/barkster/static/js/main.92436232.chunk.js.map",
+    "runtime-main.js": "/barkster/static/js/runtime-main.62e5cbdd.js",
+    "runtime-main.js.map": "/barkster/static/js/runtime-main.62e5cbdd.js.map",
+    "static/js/2.add159de.chunk.js": "/barkster/static/js/2.add159de.chunk.js",
+    "static/js/2.add159de.chunk.js.map": "/barkster/static/js/2.add159de.chunk.js.map",
+    "static/js/3.ce511cef.chunk.js": "/barkster/static/js/3.ce511cef.chunk.js",
+    "static/js/3.ce511cef.chunk.js.map": "/barkster/static/js/3.ce511cef.chunk.js.map",
+    "index.html": "/barkster/index.html",
+    "static/css/main.c34dbdf1.chunk.css.map": "/barkster/static/css/main.c34dbdf1.chunk.css.map",
+    "static/js/2.add159de.chunk.js.LICENSE.txt": "/barkster/static/js/2.add159de.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.62e5cbdd.js",
+    "static/js/2.add159de.chunk.js",
+    "static/css/main.c34dbdf1.chunk.css",
+    "static/js/main.92436232.chunk.js"
+  ]
+}
