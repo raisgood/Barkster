@@ -6,9 +6,11 @@ Features:  It's loaded with Swipeable Pictures and buttons that allow you to mov
 
 User stories:
 
-(Who) Users want to select available dogs by viewing their pictures.
-(What) As a social media consumer, I want to create a website that unique and targets a specific audience.
-As an astronomy enthusiast, I want a place where I can ask questions so that I can learn more about what I'm seeing in my telescope.
+(Who) As a developer, I wanted to create an App that dog lovers can use to view adorable canines that have been stored on a MongooseDB API database, which I created.
+
+(What) Users want to view the dog pictures and chat with others in the chat box.
+
+(Why) As an astronomy enthusiast, I want a place where I can ask questions so that I can learn more about what I'm seeing in my telescope.
 
 Techologies used: Front-end(ReactJS, HTML, CSS), Back-end(Node-JS), Database (MongooseDB)
 
