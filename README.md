@@ -4,8 +4,6 @@ This is a tinder-style app that allows you to look at dogs and communicate with 
 
 Features:  It's loaded with Swipeable Pictures and buttons that allow you to move the photos.  In addition, there are multiple pages to chat with other users.  This site has an API database created on MongooseDB.
 
-These are not strict rules that anyone should stress about. Many questions will fit into multiple categories, such as statistical mechanics (using quantum principles to descibe largee scale objects like white dwarf stars).
-
 User stories:
 
 As a college student, I want to ask questions about my physics courses so that I can learn the subject and pass my tests.
