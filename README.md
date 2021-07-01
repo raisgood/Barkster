@@ -6,7 +6,7 @@ Features:  It's loaded with Swipeable Pictures and buttons that allow you to mov
 
 User stories:
 
-As a college student, I want to ask questions about my physics courses so that I can learn the subject and pass my tests.
+As a developer, I want to create a website that dog lovers can use to communicate with each other.
 As a college instructor, I want somewhere to see students' questions so that I can provide answers outside class time.
 As an astronomy enthusiast, I want a place where I can ask questions so that I can learn more about what I'm seeing in my telescope.
 
