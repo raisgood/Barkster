@@ -6,11 +6,12 @@ Features:  It's loaded with Swipeable Pictures and buttons that allow you to mov
 
 User stories:
 
-(Who) As a developer, I wanted to create an App that dog lovers can use to view adorable canines that have been stored on a MongooseDB API database, which I created.
+(Who) As a developer, I wanted to create a social media App that dog lovers can use to view adorable canines that have been stored on a MongooseDB API database, which I created.
 
 (What) Users want to view the dog pictures and chat with others in the chat box.
 
-(Why) As an astronomy enthusiast, I want a place where I can ask questions so that I can learn more about what I'm seeing in my telescope.
+(Why) The users want to see adorable photos of dogs and communicate with the owner of that dog to possible meet for a doggy date.
+
 
 Techologies used: Front-end(ReactJS, HTML, CSS), Back-end(Node-JS), Database (MongooseDB)
 
