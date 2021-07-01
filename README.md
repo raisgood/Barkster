@@ -2,7 +2,7 @@ Barkster Created by: Rashad Humphrey
 
 This is a tinder-style app that allows you to look at dogs and communicate with them through a chat box.
 
-Features:  It's loaded with Swipeable Pictures and buttons that allow you to move the photos.  In addition, there are multiple pages to chat with other users.  This 
+Features:  It's loaded with Swipeable Pictures and buttons that allow you to move the photos.  In addition, there are multiple pages to chat with other users.  This site has an API database created on MongooseDB.
 
 These are not strict rules that anyone should stress about. Many questions will fit into multiple categories, such as statistical mechanics (using quantum principles to descibe largee scale objects like white dwarf stars).
 
