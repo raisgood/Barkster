@@ -1,4 +1,4 @@
-Barkster Created by: Rashad Humphrey
+"Barkster" Created by: Rashad Humphrey
 
 website(Front-End): https://raisgood.github.io/Barkster/
 
@@ -10,11 +10,11 @@ Features:  It's loaded with Swipeable Pictures and buttons that allow you to mov
 
 User stories:
 
-(Who) As a developer, I wanted to create a social media App that dog lovers can use to view adorable canines that have been stored on a MongooseDB API database, which I created.
+As a dog owner, I want to use this social media App where I can view the adorable canines of other dog owners.
 
-(What) Users want to view the dog pictures and chat with others in the chat box.
+As a dog owner, I want to chat with other dog owners about whatever comes to mind.
 
-(Why) The users want to see adorable photos of dogs and communicate with the owner of that dog to possible meet for a doggy date.
+As a dog owner, I want to possible meet up with owner owners and set up a doggy date.
 
 
 Techologies used: Front-end(ReactJS, HTML, CSS), Back-end(Node-JS), Database (MongooseDB)
