@@ -23,15 +23,13 @@ useEffect(() => {
 
 const redHeartPressed = () => {
     if (people && people.length > 0) {
-        console.log('1');
         swiped('left', people[people.length - 1].name ); 
     }
 }
 
 const greenHeartPressed = () => {
     if (people && people.length > 0) {
-        console.log('2');
-        swiped('right', people[people.length - 1].name ); 
+        swiped('right', people[people.length - 1].name );
     }
 }
 
@@ -43,7 +41,6 @@ const swiped = (direction, nameToDelete) => {
 
     console.log('Handle swiped dog', swipedDog);
     setPeople(clonedPeople);
-
 };
 
 const outOfFrame = (name) => {
@@ -69,7 +66,9 @@ const outOfFrame = (name) => {
             ))}
             </div>
            
-            <SwipeButtons redHeartPressed={redHeartPressed} greenHeartPressed = {greenHeartPressed}  />
+            <SwipeButtons redHeartPressed={redHeartPressed} 
+            greenHeartPressed ={greenHeartPressed} 
+            />
         </div>
         
     );

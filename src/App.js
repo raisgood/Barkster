@@ -3,7 +3,7 @@ import Header from "./Header";
 import Chats from "./Chats";
 import ChatScreen from "./ChatScreen";
 import BarkerCards from "./BarkerCards";
-import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import {HashRouter as Router, Switch, Route} from "react-router-dom";
 
 function App() {
   
