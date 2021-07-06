@@ -10,7 +10,7 @@ Features:  It's loaded with Swipeable Pictures and buttons that allow you to mov
 
 User stories:
 
-As a dog owner, I want to use this social media App where I can view the adorable canines of other dog owners.
+As a dog owner, I want to connect with other dog owner, so I can view their dogs.
 
 As a dog owner, I want to chat with other dog owners about whatever comes to mind.
 
