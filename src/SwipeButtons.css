@@ -9,15 +9,15 @@
 
 .swipeButtons .MuiIconButton-root {
     background-color: white;
-    box-shadow: 0px 10px 53px 0px rgba(0, 0, 0, 0.3) !important;
+    box-shadow: 0px 10px 53px 0px rgba(0, 0, 0, 0.3);
 }
 
-.swipeButtons__left {
-    padding: 3vw !important;
-    color: #6e449e !important;
+.swipeButtons .swipeButtons__left {
+    padding: 3vw;
+    color: #6e449e;
 }
 
-.swipeButtons__right {
-    padding: 3vw !important;
-    color: #35bb8e !important;
+.swipeButtons .swipeButtons__right {
+    padding: 3vw;
+    color: #35bb8e;
 }

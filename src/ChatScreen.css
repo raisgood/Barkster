@@ -1,3 +1,7 @@
+.chatScreen {
+    margin-bottom: 100px;
+}
+
 .chatScreen__message {
     display: flex;
     align-items: center;
@@ -23,6 +27,7 @@
     padding: 15px;
     border-radius: 20px;
     color: white;
+    overflow-wrap: anywhere;
 }
 
 .chatScreen__input {
