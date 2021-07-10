@@ -2,8 +2,9 @@ import React, { useState, useEffect } from "react";
 import TinderCard from "react-tinder-card";
 import "./BarkerCards.css";
 import axios from './axios';
-
 import SwipeButtons from "./SwipeButtons";
+
+let alreadyRemoved = [];
 
 function BarkerCards() {
 const [people, setPeople] = useState([]); 
@@ -17,34 +18,43 @@ useEffect(() => {
         setPeople(req.data);
     }
 
-    fetchData();
-  
-}, [])
+    if (people?.length === 0) {
+        alreadyRemoved = [];
+        fetchData();
+    }
+
+})
 
 const redHeartPressed = () => {
     if (people && people.length > 0) {
-        swiped('left', people[people.length - 1].name ); 
+        const name = people[people.length - 1].name
+        swiped('left', name );
+        outOfFrame( name ); 
     }
 }
 
 const greenHeartPressed = () => {
     if (people && people.length > 0) {
-        swiped('right', people[people.length - 1].name );
+        const name = people[people.length - 1].name
+        swiped('right', name );
+        outOfFrame( name );
     }
 }
 
-const swiped = (direction, nameToDelete) => {
-    console.log("removing: " + nameToDelete);
-
-    let clonedPeople = [...people];
-    let swipedDog = clonedPeople.pop();  // remove the last item
-
-    console.log('Handle swiped dog', swipedDog);
+const swiped = (direction, name) => {
+    console.log("removing: " + name);
+    alreadyRemoved.push(name);
+    let clonedPeople = people.filter(person => !alreadyRemoved.includes(person.name));
+   
+    console.log('Handle swiped dog', name);
     setPeople(clonedPeople);
+
 };
 
 const outOfFrame = (name) => {
+
     console.log(name + " left the screen!");
+   
 };
 
     return (
