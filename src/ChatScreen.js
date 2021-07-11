@@ -4,7 +4,7 @@ import "./ChatScreen.css";
 
 function ChatScreen() {
     const [input, setInput] = useState('');
-    const [messages, setMessages] = useState([
+    const [messages, setMessages] = useState([ 
         {
             name: 'Ellen',
             image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8R5QMsisJIZAYqBsahbU19T4QAyAE4moOPg&usqp=CAU',
@@ -22,7 +22,7 @@ function ChatScreen() {
 
     const handleSend = e => {
         e.preventDefault();
-debugger;
+
         setMessages ([...messages, { message: input }]);
         setInput(""); 
     }
