@@ -1,6 +1,6 @@
 "Barkster" Created by: Rashad Humphrey
 
-website(Front-End): https://raisgood.github.io/Barkster/
+website(Front-End): https://raisgood.github.io/barkster/
 
 website(Back-End): https://barkster.herokuapp.com/
 
