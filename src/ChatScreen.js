@@ -22,7 +22,7 @@ function ChatScreen() {
 
     const handleSend = e => {
         e.preventDefault();
-
+debugger;
         setMessages ([...messages, { message: input }]);
         setInput(""); 
     }
